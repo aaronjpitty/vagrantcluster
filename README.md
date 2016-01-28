@@ -20,9 +20,9 @@ Read the below instructions before bringing your machines online.
 ### Setup Instructions - READ BEFORE USE
 Step 1) Configure your theme
 
-*You are first required as a team to come up with a theme you can name your boxes. The example is "Orange, Blue, Green & Pink". Each team members virtual machines must be uniquely named. So you may have a range of "Orange1, Orange2.. etc" or a similar running theme.
+*You are first required as a team to come up with a theme you can name your boxes. The example is "Orange, Blue, Green & Pink". Each team members virtual machines must be uniquely named. So you may have a range of "Orange1, Orange2.. etc" or a similar running theme.*
 
-Once you've thought up your theme, all teams must change their individual vagrant file and update each instance of the words "Orange, Green, Blue & Pink" with their own virtual machine names.*
+*Once you've thought up your theme, all teams must change their individual vagrant file and update each instance of the words "Orange, Green, Blue & Pink" with their own virtual machine names*
 
 Step 2) Configure your IPs
 
