@@ -3,8 +3,8 @@
 #Update and add Java
 ifconfig
 sleep 5s ; echo 'end first ifconfig'
-cp /tmp/shared/ifcfg-eth0 /etc/sysconfig/network-scripts/
-cp /tmp/shared/ifcfg-eth1 /etc/sysconfig/network-scripts/
+cp /tmp/shared/orange-eth0 /etc/sysconfig/network-scripts/ifcfg-eth0
+cp /tmp/shared/orange-eth1 /etc/sysconfig/network-scripts/ifcfg-eth1
 echo "Scripts deployed init brav"
 
 yum install -y httpd
