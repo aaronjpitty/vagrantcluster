@@ -9,11 +9,11 @@ Always ensure everything has been correctly configured in your vagrantfile, prio
 
 Remember if you have to change something in your vagrantfile follow these simple steps;
 
-'''
+```
 vagrant halt - this command will gracefully close all your running virtual machines.
 *Make any necessary changes to the vagrantfile here, and save*
 vagrant up --provision - This command will ensure changes are picked up when it rebuilds.
-'''
+```
 
 Read the below instructions before bringing your machines online.
 
