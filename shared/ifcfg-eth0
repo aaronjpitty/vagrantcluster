@@ -1,5 +1,0 @@
-DEVICE="eth0"
-NM_CONTROLLED="yes"
-ONBOOT="yes"
-BOOTPROTO="dhcp"
-ONBOOT="yes"

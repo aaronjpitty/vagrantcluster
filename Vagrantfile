@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
 	config.vm.define "orange" do |orange|
 		orange.vm.hostname = "orange"
 		orange.vm.box = "cyplo/centos-6.5-gui"
-		orange.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.13"
+		orange.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.2"
 		orange.vm.provision :shell, path: "bootstrap_base.sh"
 		orange.vm.provider :virtualbox do |baseVM|
 			baseVM.gui = true
@@ -18,7 +18,7 @@ Vagrant.configure("2") do |config|
 	config.vm.define "green" do |green|
 		green.vm.hostname = "green"
 		green.vm.box = "cyplo/centos-6.5-gui"
-		green.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.12"
+		green.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.3"
 		green.vm.provision :shell, path: "bootstrap_cone.sh"
 		green.vm.provider :virtualbox do |cone|
 			cone.gui = true
@@ -31,7 +31,7 @@ Vagrant.configure("2") do |config|
 	config.vm.define "blue" do |blue|
 		blue.vm.hostname = "blue"
 		blue.vm.box = "chad-thompson/ubuntu-trusty64-gui"
-		blue.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.11"
+		blue.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.4"
 		blue.vm.provision :shell, path: "bootstrap_ctwo.sh"
 		blue.vm.provider :virtualbox do |ctwo|
 			ctwo.gui = true
@@ -44,7 +44,7 @@ Vagrant.configure("2") do |config|
 	config.vm.define "pink" do |pink|
 		pink.vm.hostname = "pink"
 		pink.vm.box = "chad-thompson/ubuntu-trusty64-gui"
-		pink.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.10"
+		pink.vm.network :public_network, :public_network => "wlan0", ip: "192.168.123.5"
 		pink.vm.provision :shell, path: "bootstrap_cthree.sh"
 		pink.vm.provider :virtualbox do |cthree|
 			cthree.gui = true
