@@ -15,6 +15,8 @@ vagrant halt - this command will gracefully close all your running virtual machi
 vagrant up --provision - This command will ensure changes are picked up when it rebuilds.
 ```
 
+Take note of the specifications of each box below, when running this cluster. You'll need a minimum of 13GB RAM to run the four machines alone. Suggested specification is 16GB RAM
+
 Read the below instructions before bringing your machines online.
 
 ### Setup Instructions - READ BEFORE USE
